@@ -1,0 +1,12 @@
+{
+  "id": "aesops-fables",
+  "title": "Fables of Aesop",
+  "author": "Aesop",
+  "description": "A small selection of Aesop's timeless fables, retold in plain modern English. Short stories with long shadows — each one ends with the moral it earned.",
+  "language": "en",
+  "chapters": [
+    { "id": "01", "title": "Wolves and Shepherds", "file": "chapters/01.md" },
+    { "id": "02", "title": "Foxes and Crows", "file": "chapters/02.md" },
+    { "id": "03", "title": "Tortoises and Hares", "file": "chapters/03.md" }
+  ]
+}

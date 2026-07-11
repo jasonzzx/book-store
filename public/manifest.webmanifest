@@ -1,0 +1,13 @@
+{
+  "name": "Book Store",
+  "short_name": "Books",
+  "description": "A small ebook store and reader",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#15141a",
+  "theme_color": "#4f46e5",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

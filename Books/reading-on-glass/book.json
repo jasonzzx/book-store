@@ -1,0 +1,12 @@
+{
+  "id": "reading-on-glass",
+  "title": "Reading on Glass",
+  "author": "Book Store Project",
+  "description": "A short guide to this app and the ideas behind it: how the store works, how books are stored as plain folders in a git repository, and how to add your own.",
+  "language": "en",
+  "chapters": [
+    { "id": "01", "title": "How This Store Works", "file": "chapters/01.md" },
+    { "id": "02", "title": "Anatomy of a Book Folder", "file": "chapters/02.md" },
+    { "id": "03", "title": "Publishing Your Own Book", "file": "chapters/03.md" }
+  ]
+}
