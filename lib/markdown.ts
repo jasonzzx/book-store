@@ -66,7 +66,7 @@ export function parseMarkdown(source: string): Block[] {
     }
 
     // Heading
-    const heading = /^(#{1,3})\s+(.*)$/.exec(trimmed);
+    const heading = /^(#{1,6})\s+(.*)$/.exec(trimmed);
     if (heading) {
       const level = heading[1].length;
       const content = heading[2];
@@ -114,7 +114,7 @@ export function parseMarkdown(source: string): Block[] {
       if (
         t === "" ||
         t.startsWith(">") ||
-        t.startsWith("#") ||
+        /^#{1,6}\s+/.test(t) ||
         t.startsWith("```") ||
         /^[-*]\s+/.test(t) ||
         /^(-{3,}|\*{3,})$/.test(t)

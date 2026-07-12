@@ -1,0 +1,157 @@
+{
+  "id": "foundation-sequels",
+  "title": "基地与守望者",
+  "author": "Jason",
+  "series": {
+    "name": "基地续集三部曲(同人续作)",
+    "volume_number": 1,
+    "volume_title": "基地与守望者",
+    "planned_volumes": 3
+  },
+  "author_note": "艾萨克·阿西莫夫《基地》系列原创同人续篇。设定于基地纪元553年,即《基地与地球》(基地纪元498年)五十五年后。",
+  "language": "zh-CN",
+  "genre": [
+    "科幻",
+    "太空歌剧",
+    "同人续作"
+  ],
+  "canon_position": "承接《基地与地球》(1986)结局",
+  "target_length_words": 170000,
+  "current_word_count": 35019,
+  "progress_percent": 20.6,
+  "status": "in_progress",
+  "parts": [
+    "第一部 月球",
+    "第二部 端点星",
+    "第三部 月球之下",
+    "第四部 两个基地",
+    "第五部 地球",
+    "第六部 康普隆"
+  ],
+  "chapters": [
+    {
+      "id": "ch01",
+      "chapter_number": 1,
+      "title": "守望者",
+      "part": "第一部 月球",
+      "file": "chapters/01-守望者.md",
+      "word_count": 2921,
+      "status": "draft"
+    },
+    {
+      "id": "ch02",
+      "chapter_number": 2,
+      "title": "抉择者",
+      "part": "第二部 端点星",
+      "file": "chapters/02-抉择者.md",
+      "word_count": 3102,
+      "status": "draft"
+    },
+    {
+      "id": "ch03",
+      "chapter_number": 3,
+      "title": "灯塔",
+      "part": "第三部 月球之下",
+      "file": "chapters/03-灯塔.md",
+      "word_count": 3454,
+      "status": "draft"
+    },
+    {
+      "id": "ch04",
+      "chapter_number": 4,
+      "title": "园丁",
+      "part": "第四部 两个基地",
+      "file": "chapters/04-园丁.md",
+      "word_count": 3579,
+      "status": "draft"
+    },
+    {
+      "id": "ch05",
+      "chapter_number": 5,
+      "title": "潮水",
+      "part": "第四部 两个基地",
+      "file": "chapters/05-潮水.md",
+      "word_count": 2966,
+      "status": "draft"
+    },
+    {
+      "id": "ch06",
+      "chapter_number": 6,
+      "title": "合唱",
+      "part": "第四部 两个基地",
+      "file": "chapters/06-合唱.md",
+      "word_count": 3316,
+      "status": "draft"
+    },
+    {
+      "id": "ch07",
+      "chapter_number": 7,
+      "title": "诱饵",
+      "part": "第四部 两个基地",
+      "file": "chapters/07-诱饵.md",
+      "word_count": 2616,
+      "status": "draft"
+    },
+    {
+      "id": "ch08",
+      "chapter_number": 8,
+      "title": "遗孀",
+      "part": "第四部 两个基地",
+      "file": "chapters/08-遗孀.md",
+      "word_count": 2987,
+      "status": "draft"
+    },
+    {
+      "id": "ch09",
+      "chapter_number": 9,
+      "title": "摇篮",
+      "part": "第五部 地球",
+      "file": "chapters/09-摇篮.md",
+      "word_count": 3997,
+      "status": "draft"
+    },
+    {
+      "id": "ch10",
+      "chapter_number": 10,
+      "title": "回信",
+      "part": "第五部 地球",
+      "file": "chapters/10-回信.md",
+      "word_count": 2942,
+      "status": "draft"
+    },
+    {
+      "id": "ch11",
+      "chapter_number": 11,
+      "title": "传道人",
+      "part": "第六部 康普隆",
+      "file": "chapters/11-传道人.md",
+      "word_count": 3139,
+      "status": "draft"
+    }
+  ],
+  "synopsis": "基地纪元553年。月球之下,融合了机器人丹尼尔与索拉利孩童菲龙的守望者,监测到一个来自大麦哲伦星云方向的天体正锁相地球深处一段跨越一百五十万年的神秘信号,加速逼近银河。八十八岁的葛兰·崔维兹被再次请出,在盖娅、第二基地与来者之间做出裁断。与此同时,端点星的青年学者黎雅·妲瑞尔用她自创的\"观念动力学\"发现银河历史正被一只看不见的手悄悄修剪;川陀的年轻发言者凯登·姒兰在\"静默之洲\"发现第二基地自己也曾被编辑;康普隆的怀疑者掌门米拉·丹尼亚多则在一场席卷银河的\"归航\"宗教狂热中,读到了一卷指向星图空白处的古老祷文。四条线索尚未交汇,而灯塔,已经开始回话。",
+  "continuity_notes": {
+    "canon_anchors": [
+      "《基地与地球》结局:崔维兹选择盖娅星系,发现丹尼尔两万年守护人类的真相,菲龙身份存疑",
+      "《机器人与帝国》:吉斯卡与丹尼尔在地球放射化事件中的角色,第零法则的起源",
+      "《基地边缘》:坚迪柏与苏拉·诺薇的婚姻,远星号为布拉诺市长所借"
+    ],
+    "invented_elements": [
+      "观念动力学(黎雅·妲瑞尔原创学科)——一门比照心理史学,以观念/信仰为研究对象的生态学",
+      "菲龙与丹尼尔融合体\"守望者\",五十五年未完全融合",
+      "灰烬层(498年第44周记忆抹除事件)与\"两个园丁\"(剪刀/第二基地长期修剪 vs 潮水/一次性大规模编辑)",
+      "静默之洲(盖娅在银河边缘悄悄扩张的三百八十七个世界)",
+      "地球裂谷灯塔:一百三十七秒周期信号,与来者锁相",
+      "康普隆归航会与《归航祷文》残卷"
+    ],
+    "open_threads": [
+      "来者的真实身份与目的——已从'八十七年后抵达'修正为'现距银河边缘不足五光年,十九年后以0.4c越过边缘'",
+      "灯塔零点八秒的爆发内容未译出",
+      "呼唤守望者名字的定向信号,发送者意图未知",
+      "康普隆祷文指向的星图空白点",
+      "黎雅与凯登两条线尚未交汇",
+      "'谁在给黎雅浇水'——布洛姆院长是执行者,幕后身份未定",
+      "主线终极谜底尚在讨论阶段,未落定"
+    ]
+  }
+}
