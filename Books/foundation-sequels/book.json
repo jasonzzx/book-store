@@ -1,7 +1,5 @@
 {
-  "id": "foundation-sequels",
   "title": "基地与守望者",
-  "author": "Jason",
   "series": {
     "name": "基地续集三部曲(同人续作)",
     "volume_number": 1,
@@ -17,8 +15,8 @@
   ],
   "canon_position": "承接《基地与地球》(1986)结局",
   "target_length_words": 170000,
-  "current_word_count": 35019,
-  "progress_percent": 20.6,
+  "current_word_count": 38426,
+  "progress_percent": 22.6,
   "status": "in_progress",
   "parts": [
     "第一部 月球",
@@ -30,7 +28,6 @@
   ],
   "chapters": [
     {
-      "id": "ch01",
       "chapter_number": 1,
       "title": "守望者",
       "part": "第一部 月球",
@@ -39,7 +36,6 @@
       "status": "draft"
     },
     {
-      "id": "ch02",
       "chapter_number": 2,
       "title": "抉择者",
       "part": "第二部 端点星",
@@ -48,7 +44,6 @@
       "status": "draft"
     },
     {
-      "id": "ch03",
       "chapter_number": 3,
       "title": "灯塔",
       "part": "第三部 月球之下",
@@ -57,7 +52,6 @@
       "status": "draft"
     },
     {
-      "id": "ch04",
       "chapter_number": 4,
       "title": "园丁",
       "part": "第四部 两个基地",
@@ -66,7 +60,6 @@
       "status": "draft"
     },
     {
-      "id": "ch05",
       "chapter_number": 5,
       "title": "潮水",
       "part": "第四部 两个基地",
@@ -75,7 +68,6 @@
       "status": "draft"
     },
     {
-      "id": "ch06",
       "chapter_number": 6,
       "title": "合唱",
       "part": "第四部 两个基地",
@@ -84,7 +76,6 @@
       "status": "draft"
     },
     {
-      "id": "ch07",
       "chapter_number": 7,
       "title": "诱饵",
       "part": "第四部 两个基地",
@@ -93,7 +84,6 @@
       "status": "draft"
     },
     {
-      "id": "ch08",
       "chapter_number": 8,
       "title": "遗孀",
       "part": "第四部 两个基地",
@@ -102,7 +92,6 @@
       "status": "draft"
     },
     {
-      "id": "ch09",
       "chapter_number": 9,
       "title": "摇篮",
       "part": "第五部 地球",
@@ -111,7 +100,6 @@
       "status": "draft"
     },
     {
-      "id": "ch10",
       "chapter_number": 10,
       "title": "回信",
       "part": "第五部 地球",
@@ -120,12 +108,19 @@
       "status": "draft"
     },
     {
-      "id": "ch11",
       "chapter_number": 11,
       "title": "传道人",
       "part": "第六部 康普隆",
       "file": "chapters/11-传道人.md",
       "word_count": 3139,
+      "status": "draft"
+    },
+    {
+      "chapter_number": 12,
+      "title": "引信",
+      "part": "第四部 两个基地",
+      "file": "chapters/12-引信.md",
+      "word_count": 3407,
       "status": "draft"
     }
   ],
@@ -145,12 +140,14 @@
       "康普隆归航会与《归航祷文》残卷"
     ],
     "open_threads": [
-      "来者的真实身份与目的——已从'八十七年后抵达'修正为'现距银河边缘不足五光年,十九年后以0.4c越过边缘'",
+      "来者的真实身份与目的——现距银河边缘不足五光年,十九年后以0.4c越过边缘,不再减速",
       "灯塔零点八秒的爆发内容未译出",
       "呼唤守望者名字的定向信号,发送者意图未知",
-      "康普隆祷文指向的星图空白点",
-      "黎雅与凯登两条线尚未交汇",
-      "'谁在给黎雅浇水'——布洛姆院长是执行者,幕后身份未定",
+      "康普隆祷文指向的星图空白点(一万年自行漂移修正后,七条视线交汇于虚无)",
+      "'谁在给黎雅浇水'——布洛姆院长是执行者,幕后身份未定;浇水在她离开端点星后停止",
+      "黎雅与凯登已于川陀轨道港会面,两线正式交汇",
+      "米拉·丹尼亚多(康普隆)线尚未与其他线接触",
+      "迦南·陌斯的一百三十七秒:与地球灯塔周期一致,来源不明",
       "主线终极谜底尚在讨论阶段,未落定"
     ]
   }
