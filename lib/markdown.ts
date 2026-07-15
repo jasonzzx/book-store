@@ -35,6 +35,14 @@ export function parseMarkdown(source: string): Block[] {
   const blocks: Block[] = [];
   let i = 0;
 
+  // Strip a leading YAML frontmatter block (--- ... ---), if present.
+  if (lines[0]?.trim() === "---") {
+    const end = lines.findIndex((l, idx) => idx > 0 && l.trim() === "---");
+    if (end !== -1) {
+      lines.splice(0, end + 1);
+    }
+  }
+
   while (i < lines.length) {
     const line = lines[i];
     const trimmed = line.trim();

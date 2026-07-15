@@ -3,16 +3,19 @@ import path from "path";
 import { parseMarkdown, Block } from "./markdown";
 
 export interface ChapterRef {
-  id: string;
+  id?: string;
+  chapter_number?: number;
   title: string;
   file: string;
 }
 
 export interface BookManifest {
-  id: string;
+  id?: string;
   title: string;
-  author: string;
-  description: string;
+  author?: string;
+  author_note?: string;
+  description?: string;
+  synopsis?: string;
   language?: string;
   chapters: ChapterRef[];
 }
@@ -46,10 +49,20 @@ function readManifest(bookDir: string): BookManifest | null {
   try {
     const raw = fs.readFileSync(manifestPath, "utf8");
     const manifest = JSON.parse(raw) as BookManifest;
-    if (!manifest.id || !manifest.title || !Array.isArray(manifest.chapters)) {
+    if (!manifest.title || !Array.isArray(manifest.chapters)) {
       console.warn(`Skipping ${bookDir}: manifest missing required fields`);
       return null;
     }
+    // Some manifests use a slightly different schema (e.g. no top-level id/author,
+    // chapters keyed by chapter_number instead of id) — normalize with fallbacks
+    // instead of rejecting the whole book.
+    manifest.id = manifest.id ?? bookDir;
+    manifest.author = manifest.author ?? manifest.author_note ?? "";
+    manifest.description = manifest.description ?? manifest.synopsis ?? "";
+    manifest.chapters = manifest.chapters.map((ch, i) => ({
+      ...ch,
+      id: ch.id ?? String(ch.chapter_number ?? i + 1).padStart(2, "0"),
+    }));
     return manifest;
   } catch (err) {
     console.warn(`Skipping ${bookDir}: cannot read manifest (${err})`);
@@ -65,10 +78,10 @@ export function getAllBooks(): BookSummary[] {
     .map((entry) => readManifest(entry.name))
     .filter((m): m is BookManifest => m !== null)
     .map((m) => ({
-      id: m.id,
+      id: m.id!,
       title: m.title,
-      author: m.author,
-      description: m.description ?? "",
+      author: m.author!,
+      description: m.description!,
       chapterCount: m.chapters.length,
     }))
     .sort((a, b) => a.title.localeCompare(b.title));
@@ -91,14 +104,14 @@ export function getBook(id: string): BookData | null {
       console.warn(`Book ${id}: missing chapter file ${ref.file}`);
       continue;
     }
-    chapters.push({ id: ref.id, title: ref.title, blocks: parseMarkdown(markdown) });
+    chapters.push({ id: ref.id!, title: ref.title, blocks: parseMarkdown(markdown) });
   }
 
   return {
-    id: manifest.id,
+    id: manifest.id!,
     title: manifest.title,
-    author: manifest.author,
-    description: manifest.description ?? "",
+    author: manifest.author!,
+    description: manifest.description!,
     chapters,
   };
 }
