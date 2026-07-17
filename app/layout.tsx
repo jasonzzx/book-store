@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Book Store",
-  description: "A small ebook store and reader. Books live as folders in a git repository.",
+  description: "A small ebook store and reader with a private book upload shelf.",
   manifest: "/manifest.webmanifest",
   appleWebApp: {
     capable: true,

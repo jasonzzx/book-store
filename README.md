@@ -10,6 +10,7 @@ A mobile-first ebook store and reader, built with Next.js and deployed on Vercel
 - **Bookmarks**: star the passage you're reading, jump back to it from the bookmarks panel
 - **In-book search** across all chapters with snippet previews
 - **PWA**: installable to the home screen from a mobile browser (web app manifest + icons)
+- **Book upload**: add a ZIP from the shelf UI; local development writes to `Books/`, while production commits to GitHub and redeploys
 
 ## How books are stored
 
@@ -45,7 +46,21 @@ Rules:
 - Chapters appear in manifest order
 - Chapters support headings, paragraphs, bold/italic/inline code, blockquotes, lists, fenced code blocks, and `---` scene breaks
 
-**To publish a book: add a folder and push.** Pages are statically generated at build time from the `Books/` folder, so every push triggers a Vercel deployment and the new book appears on the shelf — no app changes needed.
+### Upload from the app
+
+Zip either a book folder or its contents, then choose **Upload book** on the shelf. The archive must contain exactly one `book.json` plus every Markdown file referenced by its `chapters` list. Uploads are limited to 20 MB, and an existing book ID cannot be replaced.
+
+In local development, uploads are written straight to `Books/`. For a deployed app, configure these server-side environment variables:
+
+```text
+GITHUB_TOKEN=a-fine-grained-token-with-contents-write-access
+GITHUB_REPOSITORY=owner/repository
+GITHUB_BRANCH=main
+```
+
+The token is never sent to the browser. A production upload creates one commit on the configured branch, which triggers the usual Vercel deployment. Until the GitHub variables are configured, production uploads remain disabled. The upload screen has no login or password because this app is intended for personal use.
+
+You can still publish manually by adding a folder under `Books/` and pushing it.
 
 ## Development
 

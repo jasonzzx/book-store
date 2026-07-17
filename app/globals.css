@@ -58,6 +58,10 @@ button {
 
 .shelf-header {
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
 }
 
 .shelf-header h1 {
@@ -113,6 +117,52 @@ button {
   height: 100%;
   border-radius: 2px;
   background: var(--accent);
+}
+
+/* ---------- Book upload ---------- */
+
+.upload-open,
+.upload-submit {
+  border-radius: 10px;
+  background: var(--accent);
+  color: white;
+  font-weight: 650;
+  padding: 9px 13px;
+  white-space: nowrap;
+}
+
+.upload-open:hover,
+.upload-submit:hover { filter: brightness(1.08); }
+.upload-submit:disabled { opacity: 0.6; cursor: wait; }
+
+.upload-dialog {
+  width: min(440px, calc(100vw - 32px));
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 22px;
+  background: var(--card);
+  color: var(--fg);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.3);
+  margin: auto;
+}
+
+.upload-dialog::backdrop { background: rgba(20, 18, 25, 0.64); backdrop-filter: blur(3px); }
+.upload-dialog-heading { display: flex; justify-content: space-between; gap: 20px; margin-bottom: 20px; }
+.upload-dialog h2 { font-size: 1.25rem; }
+.upload-dialog-heading p { color: var(--muted); font-size: 0.86rem; margin-top: 4px; line-height: 1.4; }
+.upload-close { font-size: 1.6rem; color: var(--muted); line-height: 1; padding: 0 4px; align-self: flex-start; }
+.upload-field { display: grid; gap: 7px; margin-bottom: 16px; font-size: 0.88rem; font-weight: 600; }
+.upload-field input { width: 100%; border: 1px solid var(--border); border-radius: 9px; background: var(--bg); color: var(--fg); padding: 10px; font: inherit; font-weight: 400; }
+.upload-field input[type="file"] { padding: 8px; }
+.upload-field small { color: var(--muted); font-size: 0.75rem; font-weight: 400; line-height: 1.4; }
+.upload-message { border-radius: 9px; padding: 10px 12px; font-size: 0.82rem; line-height: 1.4; margin-bottom: 14px; }
+.upload-message.error { background: rgba(220, 38, 38, 0.12); color: #dc2626; }
+.upload-message.success { background: rgba(22, 163, 74, 0.12); color: #16a34a; }
+.upload-submit { width: 100%; padding: 11px 14px; }
+
+@media (max-width: 420px) {
+  .shelf-header { align-items: flex-start; }
+  .upload-open { font-size: 0.82rem; padding: 8px 10px; }
 }
 
 /* ---------- Auto-generated covers ---------- */
