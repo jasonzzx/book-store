@@ -1,5 +1,8 @@
 # Book Store
 
+[![CI](https://github.com/jasonzzx/book-store/actions/workflows/ci.yml/badge.svg)](https://github.com/jasonzzx/book-store/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 A mobile-first ebook store and reader, built with Next.js and deployed on Vercel. There is **no database and no backend**: the entire library is the [`Books/`](Books/) folder in this repository, and all per-user state (reading progress, bookmarks, reader settings) lives in the browser's localStorage.
 
 ## Features
