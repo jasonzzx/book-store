@@ -15,8 +15,8 @@
   ],
   "canon_position": "承接《基地与地球》(1986)结局",
   "target_length_words": 170000,
-  "current_word_count": 169120,
-  "progress_percent": 99.48,
+  "current_word_count": 169148,
+  "progress_percent": 99.5,
   "status": "completed_first_draft",
   "parts": [
     "第一部 月球",
@@ -33,7 +33,7 @@
       "title": "守望者",
       "part": "第一部 月球",
       "file": "chapters/01-守望者.md",
-      "word_count": 2921,
+      "word_count": 2925,
       "status": "draft"
     },
     {
@@ -41,7 +41,7 @@
       "title": "抉择者",
       "part": "第二部 端点星",
       "file": "chapters/02-抉择者.md",
-      "word_count": 3102,
+      "word_count": 3103,
       "status": "draft"
     },
     {
@@ -57,7 +57,7 @@
       "title": "园丁",
       "part": "第四部 两个基地",
       "file": "chapters/04-园丁.md",
-      "word_count": 3579,
+      "word_count": 3574,
       "status": "draft"
     },
     {
@@ -65,7 +65,7 @@
       "title": "潮水",
       "part": "第四部 两个基地",
       "file": "chapters/05-潮水.md",
-      "word_count": 2966,
+      "word_count": 2975,
       "status": "draft"
     },
     {
@@ -81,7 +81,7 @@
       "title": "诱饵",
       "part": "第四部 两个基地",
       "file": "chapters/07-诱饵.md",
-      "word_count": 2616,
+      "word_count": 2615,
       "status": "draft"
     },
     {
@@ -89,7 +89,7 @@
       "title": "遗孀",
       "part": "第四部 两个基地",
       "file": "chapters/08-遗孀.md",
-      "word_count": 2987,
+      "word_count": 2988,
       "status": "draft"
     },
     {
@@ -97,7 +97,7 @@
       "title": "摇篮",
       "part": "第五部 地球",
       "file": "chapters/09-摇篮.md",
-      "word_count": 4000,
+      "word_count": 4007,
       "status": "draft"
     },
     {
@@ -121,7 +121,7 @@
       "title": "引信",
       "part": "第四部 两个基地",
       "file": "chapters/12-引信.md",
-      "word_count": 3407,
+      "word_count": 3413,
       "status": "draft"
     },
     {
@@ -137,7 +137,7 @@
       "title": "第三只手",
       "part": "第四部 两个基地",
       "file": "chapters/14-第三只手.md",
-      "word_count": 2852,
+      "word_count": 2853,
       "status": "draft"
     },
     {
@@ -145,7 +145,7 @@
       "title": "质询",
       "part": "第四部 两个基地",
       "file": "chapters/15-质询.md",
-      "word_count": 2897,
+      "word_count": 2902,
       "status": "draft"
     },
     {
@@ -161,7 +161,7 @@
       "title": "松绑",
       "part": "第六部 康普隆",
       "file": "chapters/17-松绑.md",
-      "word_count": 2660,
+      "word_count": 2648,
       "status": "draft"
     },
     {
@@ -169,7 +169,7 @@
       "title": "退烧",
       "part": "第四部 两个基地",
       "file": "chapters/18-退烧.md",
-      "word_count": 2485,
+      "word_count": 2487,
       "status": "draft"
     },
     {
@@ -201,7 +201,7 @@
       "title": "底片",
       "part": "第四部 两个基地",
       "file": "chapters/22-底片.md",
-      "word_count": 2114,
+      "word_count": 2115,
       "status": "draft"
     },
     {
@@ -217,7 +217,7 @@
       "title": "证言",
       "part": "第七部 公开",
       "file": "chapters/24-证言.md",
-      "word_count": 2444,
+      "word_count": 2445,
       "status": "draft"
     },
     {
@@ -241,7 +241,7 @@
       "title": "迟到者",
       "part": "第六部 康普隆",
       "file": "chapters/27-迟到者.md",
-      "word_count": 1821,
+      "word_count": 1824,
       "status": "draft"
     },
     {
@@ -249,7 +249,7 @@
       "title": "三份",
       "part": "第四部 两个基地",
       "file": "chapters/28-三份.md",
-      "word_count": 1947,
+      "word_count": 1951,
       "status": "draft"
     },
     {
@@ -297,7 +297,7 @@
       "title": "抵达",
       "part": "第七部 公开",
       "file": "chapters/34-抵达.md",
-      "word_count": 1777,
+      "word_count": 1775,
       "status": "draft"
     },
     {
@@ -305,7 +305,7 @@
       "title": "自赦",
       "part": "第四部 两个基地",
       "file": "chapters/35-自赦.md",
-      "word_count": 1700,
+      "word_count": 1703,
       "status": "draft"
     },
     {
@@ -321,7 +321,7 @@
       "title": "身世",
       "part": "第七部 公开",
       "file": "chapters/37-身世.md",
-      "word_count": 1360,
+      "word_count": 1363,
       "status": "draft"
     },
     {
@@ -337,7 +337,7 @@
       "title": "旧账",
       "part": "第四部 两个基地",
       "file": "chapters/39-旧账.md",
-      "word_count": 1279,
+      "word_count": 1278,
       "status": "draft"
     },
     {
@@ -385,7 +385,7 @@
       "title": "倒计时",
       "part": "第四部 两个基地",
       "file": "chapters/45-倒计时.md",
-      "word_count": 1307,
+      "word_count": 1305,
       "status": "draft"
     },
     {
@@ -489,7 +489,7 @@
       "title": "通行",
       "part": "第六部 康普隆",
       "file": "chapters/58-通行.md",
-      "word_count": 1107,
+      "word_count": 1103,
       "status": "draft"
     },
     {
@@ -497,7 +497,7 @@
       "title": "相见",
       "part": "第七部 公开",
       "file": "chapters/59-相见.md",
-      "word_count": 1165,
+      "word_count": 1159,
       "status": "draft"
     },
     {
@@ -537,7 +537,7 @@
       "title": "潮涌",
       "part": "第六部 康普隆",
       "file": "chapters/64-潮涌.md",
-      "word_count": 1204,
+      "word_count": 1202,
       "status": "draft"
     },
     {
@@ -545,7 +545,7 @@
       "title": "证词",
       "part": "第四部 两个基地",
       "file": "chapters/65-证词.md",
-      "word_count": 1250,
+      "word_count": 1248,
       "status": "draft"
     },
     {
@@ -577,7 +577,7 @@
       "title": "众叛",
       "part": "第四部 两个基地",
       "file": "chapters/69-众叛.md",
-      "word_count": 1093,
+      "word_count": 1094,
       "status": "draft"
     },
     {
@@ -625,7 +625,7 @@
       "title": "系结",
       "part": "第七部 公开",
       "file": "chapters/75-系结.md",
-      "word_count": 1191,
+      "word_count": 1195,
       "status": "draft"
     },
     {
@@ -657,7 +657,7 @@
       "title": "成例",
       "part": "第六部 康普隆",
       "file": "chapters/79-成例.md",
-      "word_count": 967,
+      "word_count": 962,
       "status": "draft"
     },
     {
@@ -665,7 +665,7 @@
       "title": "尘封",
       "part": "第四部 两个基地",
       "file": "chapters/80-尘封.md",
-      "word_count": 1070,
+      "word_count": 1076,
       "status": "draft"
     },
     {
@@ -673,7 +673,7 @@
       "title": "动身",
       "part": "第七部 公开",
       "file": "chapters/81-动身.md",
-      "word_count": 1049,
+      "word_count": 1056,
       "status": "draft"
     },
     {
@@ -721,7 +721,7 @@
       "title": "空白",
       "part": "第七部 公开",
       "file": "chapters/87-空白.md",
-      "word_count": 986,
+      "word_count": 987,
       "status": "draft"
     },
     {
