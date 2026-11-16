@@ -1,0 +1,39 @@
+{
+  "id": "kebiao-zhiwai",
+  "title": "课表之外",
+  "author": "Jason Zhong",
+  "description": "马拉松训练不只有课表。五个发现，一套逻辑：配速是两端夹出来的平衡点，天赋划出天花板，5公里是最诚实的尺子，配速慢10秒、距离翻一倍，跑量是结果不是目标。本书写作中，目前完成序言与第一部。",
+  "language": "zh-CN",
+  "chapters": [
+    {
+      "id": "00",
+      "title": "序：课表之外，还有什么",
+      "file": "chapters/00.md"
+    },
+    {
+      "id": "01",
+      "title": "马拉松配速不是练出来的",
+      "file": "chapters/01.md"
+    },
+    {
+      "id": "02",
+      "title": "天赋比努力更重要",
+      "file": "chapters/02.md"
+    },
+    {
+      "id": "03",
+      "title": "想跑好全马，先跑好5公里",
+      "file": "chapters/03.md"
+    },
+    {
+      "id": "04",
+      "title": "配速慢10秒，距离翻一倍",
+      "file": "chapters/04.md"
+    },
+    {
+      "id": "05",
+      "title": "跑量是结果，不是目标",
+      "file": "chapters/05.md"
+    }
+  ]
+}
