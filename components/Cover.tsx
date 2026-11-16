@@ -26,12 +26,24 @@ function hash(s: string): number {
 export default function Cover({
   title,
   author,
+  cover,
   large = false,
 }: {
   title: string;
   author: string;
+  cover?: string;
   large?: boolean;
 }) {
+  if (cover) {
+    return (
+      <div
+        className={`cover cover-with-image ${large ? "cover-large" : ""}`}
+        aria-hidden="true"
+      >
+        <img src={cover} alt="" className="cover-image" />
+      </div>
+    );
+  }
   const [from, to] = PALETTES[hash(title) % PALETTES.length];
   return (
     <div

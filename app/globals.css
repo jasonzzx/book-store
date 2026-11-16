@@ -206,6 +206,17 @@ button {
   max-width: 200px;
 }
 
+.cover-with-image {
+  padding: 0;
+}
+
+.cover-with-image .cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 /* ---------- Reader themes ---------- */
 
 .reader {

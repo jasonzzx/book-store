@@ -17,6 +17,7 @@ export interface BookManifest {
   description?: string;
   synopsis?: string;
   language?: string;
+  cover?: string;
   chapters: ChapterRef[];
 }
 
@@ -26,6 +27,7 @@ export interface BookSummary {
   author: string;
   description: string;
   chapterCount: number;
+  cover?: string;
 }
 
 export interface ChapterContent {
@@ -39,6 +41,7 @@ export interface BookData {
   title: string;
   author: string;
   description: string;
+  cover?: string;
   chapters: ChapterContent[];
 }
 
@@ -83,6 +86,7 @@ export function getAllBooks(): BookSummary[] {
       author: m.author!,
       description: m.description!,
       chapterCount: m.chapters.length,
+      cover: m.cover,
     }))
     .sort((a, b) => a.title.localeCompare(b.title));
 }
@@ -112,6 +116,7 @@ export function getBook(id: string): BookData | null {
     title: manifest.title,
     author: manifest.author!,
     description: manifest.description!,
+    cover: manifest.cover,
     chapters,
   };
 }

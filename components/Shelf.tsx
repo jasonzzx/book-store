@@ -26,7 +26,7 @@ export default function Shelf({ books }: { books: BookSummary[] }) {
         const pct = progress[book.id];
         return (
           <Link key={book.id} href={`/book/${book.id}`} className="shelf-item">
-            <Cover title={book.title} author={book.author} />
+            <Cover title={book.title} author={book.author} cover={book.cover} />
             <div className="shelf-item-info">
               <div className="shelf-item-title">{book.title}</div>
               <div className="shelf-item-author">{book.author}</div>
